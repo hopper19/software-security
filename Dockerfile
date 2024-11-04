@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 
 # Update the package list and install openjdk-7-jdk and htop
 RUN apt-get update && \
-    apt-get install -y openjdk-7-jdk htop && \
+    apt-get install -y openjdk-7-jdk htop maven && \
     apt-get clean
 
 # Set the working directory
