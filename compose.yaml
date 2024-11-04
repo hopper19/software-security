@@ -1,0 +1,8 @@
+services:
+  ubuntu_terminal:
+    build:
+      context: .
+    volumes:
+      - /home/cuong/drive/code/software-security:/software-security
+    stdin_open: true
+    tty: true
